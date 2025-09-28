@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
-require_once getenv('COMPOSER_HOME') . '/vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-use function julysept\hangman\Controller\startGame;
+use julysept\hangman\Controller\startGame;
 
 startGame();
